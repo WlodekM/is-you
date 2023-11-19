@@ -1,5 +1,11 @@
 <h1>is-you</h1>
 <hr>
 <p>Mariah Carey jumpscar 😲</p>
-<script>document.location.href = "https://youtu.be/aAkMkVFwAoo?t=53&autoplay=1"</script>
+<script>
+  function delay(time) {
+    return new Promise(resolve => setTimeout(resolve, time));
+  }
+  
+  delay(1000).then(() => {document.location.href = "https://youtu.be/aAkMkVFwAoo?t=53&autoplay=1"});
+</script>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yXQViqx6GMY?si=MdDRLpFM8ZsOpxes&amp;controls=0&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
